@@ -40,7 +40,7 @@ Jarvis is an advanced AI assistant, inspired by the iconic Iron Man movie, desig
 **Saying ``Jarvis`` Will wake Jarvis up, he will stay awake for 300 seconds. You can say any of the following commands during that 300 seconds or you can just talk with him casually. After 300 seconds he goes back to sleep and can be waked up by saying Jarvis again.**
 
 - WhatsApp automation:
-**Note that Jarvis should be running in background and WhatsApp should be open in the foreground in order for it to work.**
+> **Note that Jarvis should be running in background and WhatsApp should be open in the foreground in order for it to work.**
 
 * To send WhatsApp message:
 
