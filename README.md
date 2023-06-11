@@ -106,6 +106,10 @@ OR \
 ``translate <SENTENCE> into <LANGUAGE>`` \
 This translates and prints the translated sentence. TTS system can only speak in english so its currently not possible to make it say the translation. If the translation language is not found, then it just says the requested language is not found. \
 
-What ever you talk besides these commands will directly go to the AI. And then the AI in Jarvis will answer your question or have a conversation with you
+What ever you talk besides these commands will directly go to the AI. And then the AI in Jarvis will answer your question or have a conversation with you.
+
+## Installing the voice package on Windows:
+
+
 
 Jarvis combines cutting-edge technologies to deliver a comprehensive and intuitive AI assistant experience. Embrace the future of productivity and let Jarvis streamline your daily routine, enabling you to focus on what truly matters.
