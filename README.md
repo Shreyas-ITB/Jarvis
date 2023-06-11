@@ -57,7 +57,7 @@ This will search the person again, and call them.
 This will hang up the ongoing call.
 
 - To send a voice message on WhatsApp, you can say: \
-``send a voice message to <PERSON NAME> <MESSAGE>`` \  
+``send a voice message to <PERSON NAME> <MESSAGE>`` \ 
 Jarvis will search the person, click on the record button and speak. Then send the message.
 
 - To search something on wikipedia, you can say: \
@@ -90,13 +90,13 @@ This needs the web browser window where the song is playing on youtube to be ope
 
 - To resume the music thats paused, you can say: \
 ``resume the music`` \
-OR 
+OR \
 ``could you resume the music`` \
 This needs the web browser window where the song is playing on youtube to be open, it resumes the music.
 
 - To stop the music thats playing, you can say: \
 ``stop the music`` \
-OR 
+OR \
 ``could you stop the music`` \
 This needs the web browser window where the song is playing on youtube to be open, it closes the tab.
 
