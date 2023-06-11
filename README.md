@@ -33,15 +33,31 @@ Jarvis is an advanced AI assistant, inspired by the iconic Iron Man movie, desig
 - OpenWeatherMap API Key (To fetch the weather information in your local area).
 - NewsAPI API Key (To fetch the latest headlines from your favorite news paper).
 - WhatsApp to be installed on your system (For whatsapp automation such as, voice calling, voice messaging and text messaging).
+- There is a voice package that you need to download, to get a voice close to Jarvis's voice. If you do not wish to install it, you can change the voice to sapi5 in the env file and proceed to use the default text to speech engine of microsoft.
+- Currently only works on Windows (But soon will be available for Linux and MacOS)
 - Last but not the least, You need 8GB or more RAM on your computer (For running local AI model on your computer, its not necessary as Jarvis only uses gpt3 API but incase if the request fails or something, it uses the local AI model. So its recommended).
 
 ## Commands:
 
 **Saying ``Jarvis`` Will wake Jarvis up, he will stay awake for 300 seconds. You can say any of the following commands during that 300 seconds or you can just talk with him casually. After 300 seconds he goes back to sleep and can be waked up by saying Jarvis again.**
 
-- WhatsApp automation:
+### WhatsApp automation:
 > **Note that Jarvis should be running in background and WhatsApp should be open in the foreground in order for it to work.**
 
-* To send WhatsApp message:
+- To send WhatsApp message, you can say:
+ ```send a message to <PERSON NAME>```  
+ here it will ask you what message would you like to send to that person you specified. Once you tell the message to it, it will then begin to search the person in whatsapp, type the message and send the message.
+
+- To call a person on WhatsApp, you can say:
+```make a call to <PERSON NAME>```   
+This will search the person again, and call them.
+
+- To hang up an ongoing call on WhatsApp, you can say:
+```cut the call```
+This will hang up the ongoing call.
+
+- To send a voice message on WhatsApp, you can say:
+```send a voice message to <PERSON NAME> <MESSAGE>```   
+Jarvis will search the person, click on the record button and speak. Then send the message.
 
 Jarvis combines cutting-edge technologies to deliver a comprehensive and intuitive AI assistant experience. Embrace the future of productivity and let Jarvis streamline your daily routine, enabling you to focus on what truly matters.
