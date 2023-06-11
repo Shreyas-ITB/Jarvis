@@ -79,30 +79,30 @@ This will tell you your current local time.
 - To play a music on YouTube, you can say: \
 ``could you play <MUSIC NAME> on youtube`` \
 OR \
-``play <MUSIC NAME>``
+``play <MUSIC NAME>`` \
 This will fetch the URL of the song by its name, then open up a browser window and start playing the music.
 
-- To pause the music thats playing, you can say:
+- To pause the music thats playing, you can say: \
 ``pause the music`` \
 OR \ 
 ``could you halt the music`` \
 This needs the web browser window where the song is playing on youtube to be open, it pauses the music.
 
-- To resume the music thats paused, you can say:
+- To resume the music thats paused, you can say: \
 ``resume the music`` \
 OR 
 ``could you resume the music`` \
 This needs the web browser window where the song is playing on youtube to be open, it resumes the music.
 
-- To stop the music thats playing, you can say:
+- To stop the music thats playing, you can say: \
 ``stop the music`` \
 OR 
 ``could you stop the music`` \
 This needs the web browser window where the song is playing on youtube to be open, it closes the tab.
 
-- To translate the words or sentences, you can say:
+- To translate the words or sentences, you can say: \
 ``could you translate <SENTENCE> into <LANGUAGE>`` \
-OR
+OR \
 ``translate <SENTENCE> into <LANGUAGE>`` \
 This translates and prints the translated sentence. TTS system can only speak in english so its currently not possible to make it say the translation. If the translation language is not found, then it just says the requested language is not found. \
 
