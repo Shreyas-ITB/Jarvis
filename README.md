@@ -44,19 +44,19 @@ Jarvis is an advanced AI assistant, inspired by the iconic Iron Man movie, desig
 ### WhatsApp automation:
 > **Note that Jarvis should be running in background and WhatsApp should be open in the foreground in order for it to work.**
 
-- To send WhatsApp message, you can say:
- ``send a message to <PERSON NAME>`` 
+- To send WhatsApp message, you can say: \
+ ``send a message to <PERSON NAME>``
  here it will ask you what message would you like to send to that person you specified. Once you tell the message to it, it will then begin to search the person in whatsapp, type the message and send the message.
 
-- To call a person on WhatsApp, you can say:
+- To call a person on WhatsApp, you can say: \
 ``make a call to <PERSON NAME>``  
 This will search the person again, and call them.
 
-- To hang up an ongoing call on WhatsApp, you can say:
+- To hang up an ongoing call on WhatsApp, you can say: \
 ``cut the call``
 This will hang up the ongoing call.
 
-- To send a voice message on WhatsApp, you can say:
+- To send a voice message on WhatsApp, you can say: \
 ``send a voice message to <PERSON NAME> <MESSAGE>``   
 Jarvis will search the person, click on the record button and speak. Then send the message.
 
