@@ -27,6 +27,21 @@ Jarvis is an advanced AI assistant, inspired by the iconic Iron Man movie, desig
 
 - Intelligent Chat: Engage in interactive conversations with Jarvis, allowing you to ask questions, seek guidance, or simply enjoy friendly banter, all powered by advanced natural language processing.
 
+## Requirements:
 
+- Python 3.9.8 (As there are some packages like pyttsx3 that do not support 3.10 yet).
+- OpenWeatherMap API Key (To fetch the weather information in your local area).
+- NewsAPI API Key (To fetch the latest headlines from your favorite news paper).
+- WhatsApp to be installed on your system (For whatsapp automation such as, voice calling, voice messaging and text messaging).
+- Last but not the least, You need 8GB or more RAM on your computer (For running local AI model on your computer, its not necessary as Jarvis only uses gpt3 API but incase if the request fails or something, it uses the local AI model. So its recommended).
+
+## Commands:
+
+**Saying ``Jarvis`` Will wake Jarvis up, he will stay awake for 300 seconds. You can say any of the following commands during that 300 seconds or you can just talk with him casually. After 300 seconds he goes back to sleep and can be waked up by saying Jarvis again.**
+
+- WhatsApp automation:
+**Note that Jarvis should be running in background and WhatsApp should be open in the foreground in order for it to work.**
+
+* To send WhatsApp message:
 
 Jarvis combines cutting-edge technologies to deliver a comprehensive and intuitive AI assistant experience. Embrace the future of productivity and let Jarvis streamline your daily routine, enabling you to focus on what truly matters.
