@@ -90,19 +90,19 @@ This needs the web browser window where the song is playing on youtube to be ope
 
 - To resume the music thats paused, you can say:
 ``resume the music`` \
-OR \ 
+OR 
 ``could you resume the music`` \
 This needs the web browser window where the song is playing on youtube to be open, it resumes the music.
 
 - To stop the music thats playing, you can say:
 ``stop the music`` \
-OR \ 
+OR 
 ``could you stop the music`` \
 This needs the web browser window where the song is playing on youtube to be open, it closes the tab.
 
 - To translate the words or sentences, you can say:
 ``could you translate <SENTENCE> into <LANGUAGE>`` \
-OR \
+OR
 ``translate <SENTENCE> into <LANGUAGE>`` \
 This translates and prints the translated sentence. TTS system can only speak in english so its currently not possible to make it say the translation. If the translation language is not found, then it just says the requested language is not found. \
 
