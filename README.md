@@ -84,7 +84,7 @@ This will fetch the URL of the song by its name, then open up a browser window a
 
 - To pause the music thats playing, you can say: \
 ``pause the music`` \
-OR \ 
+OR \
 ``could you halt the music`` \
 This needs the web browser window where the song is playing on youtube to be open, it pauses the music.
 
