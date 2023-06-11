@@ -60,4 +60,52 @@ This will hang up the ongoing call.
 ``send a voice message to <PERSON NAME> <MESSAGE>`` \  
 Jarvis will search the person, click on the record button and speak. Then send the message.
 
+- To search something on wikipedia, you can say: \
+``could you search something on wikipedia`` \
+This will ask you what do u want to search, you can just say what you wanted to search and it will reply back with the information.
+
+- To stop jarvis by voice command, you can say: \
+``self destruct`` \
+This will ask you a confirmation, if you say yes then it shuts down. saying no will cancel all the self destruct mission.
+
+- To get the weather details, you can say: \
+``whats the current weather in <CITY NAME>`` \
+This will fetch the weather details such as temperature, humidity and weather description.
+
+- To get the current time, you can say: \
+``what is the time`` \
+This will tell you your current local time.
+
+- To play a music on YouTube, you can say: \
+``could you play <MUSIC NAME> on youtube`` \
+OR \
+``play <MUSIC NAME>``
+This will fetch the URL of the song by its name, then open up a browser window and start playing the music.
+
+- To pause the music thats playing, you can say:
+``pause the music`` \
+OR \ 
+``could you halt the music`` \
+This needs the web browser window where the song is playing on youtube to be open, it pauses the music.
+
+- To resume the music thats paused, you can say:
+``resume the music`` \
+OR \ 
+``could you resume the music`` \
+This needs the web browser window where the song is playing on youtube to be open, it resumes the music.
+
+- To stop the music thats playing, you can say:
+``stop the music`` \
+OR \ 
+``could you stop the music`` \
+This needs the web browser window where the song is playing on youtube to be open, it closes the tab.
+
+- To translate the words or sentences, you can say:
+``could you translate <SENTENCE> into <LANGUAGE>`` \
+OR \
+``translate <SENTENCE> into <LANGUAGE>`` \
+This translates and prints the translated sentence. TTS system can only speak in english so its currently not possible to make it say the translation. If the translation language is not found, then it just says the requested language is not found. \
+
+What ever you talk besides these commands will directly go to the AI. And then the AI in Jarvis will answer your question or have a conversation with you
+
 Jarvis combines cutting-edge technologies to deliver a comprehensive and intuitive AI assistant experience. Embrace the future of productivity and let Jarvis streamline your daily routine, enabling you to focus on what truly matters.
