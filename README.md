@@ -144,10 +144,10 @@ VOICE_ENGINE="IVONA 2 Brian - British English male voice [22kHz]" # Change this 
 
 ## Running Jarvis:
 
-- Install the dependencies:
+- Install the dependencies: \
 ``pip install -r requirements.txt``
 
-- Run Jarvis:
+- Run Jarvis: \
 ``python jarvis.py``
 
 And voila!! now you have your own jarvis!
