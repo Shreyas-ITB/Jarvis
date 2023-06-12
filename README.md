@@ -142,6 +142,13 @@ VOICE_ENGINE="IVONA 2 Brian - British English male voice [22kHz]" # Change this 
 ```
 - Then once you edit and save the file, rename it as .env (remove the example that was in front of .env).
 
+## Running a local model API:
+- First download the models from hugging face. As this project uses llama.cpp, you can go to their [github page](https://github.com/ggerganov/llama.cpp) and take a look at the readme file to know what models are supported.
+- Once you download the model, place it into the models folder.
+- Then run the following command in the llama folder which is inside the libs folder. \
+``server.exe -m ..\models\<YOUR MODEL FILE NAME> --ctx_size 2048`` \
+This will load your model and host a local API that will be used by Jarvis in case of an error with the gpt3 model.
+
 ## Running Jarvis:
 
 - Install the dependencies: \
