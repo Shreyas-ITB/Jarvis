@@ -116,5 +116,46 @@ What ever you talk besides these commands will directly go to the AI. And then t
 
 ## Configuring the env file:
 
+- Edit the ``example.env`` file:
+``# Configuration for API parameters
+BATCH_SIZE=128                  # Number of examples processed in parallel during API call
+TEMPERATURE=0.2                 # Controls the randomness of the generated text
+TOP_K=40                        # Limits the number of tokens to consider for each step
+TOP_P=0.9                       # Limits the cumulative probability of the generated text
+N_KEEP=-1                       # Number of tokens to keep from the previous completion
+N_PREDICT=200                   # Maximum number of tokens to generate
+STOP="### Instruction:\n\n"     # Text that triggers the completion to stop
+THREADS=4                       # Number of concurrent threads for generating completions
+AS_LOOP=True                    # Specify if the completions should be generated token by token
+INTERACTIVE=True                # Enable the detection of a stop word
 
-Jarvis combines cutting-edge technologies to deliver a comprehensive and intuitive AI assistant experience. Embrace the future of productivity and let Jarvis streamline your daily routine, enabling you to focus on what truly matters.
+# General Configuration
+SPEECH_RATE=150                  # This controls the speed of talking
+VOLUME=0.8                       # This adjusts the volume of Jarvis
+OWNER_NAME=<YOUR NAME>               # This is used by jarvis in voice messages
+OPENWEATHERMAP_APIKEY=<YOUR API KEY> # This is used by jarvis to fetch the weather data
+LISTENING_DURATION=300           # This defines the awake time for jarvis
+NEWSAPI_APIKEY=<YOUR API KEY> # This is used by jarvis to fetch news from newsapi
+NEWS_PAPER=the-times-of-india    # This is the name of the newspaper from where you get the feeds
+VOICE_ENGINE="IVONA 2 Brian - British English male voice [22kHz]" # Change this to sapi5 if you dont want to install the voice package``
+- Then once you edit and save the file, rename it as .env (remove the example that was in front of .env).
+
+## Running Jarvis:
+
+- Install the dependencies:
+``pip install -r requirements.txt``
+
+- Run Jarvis:
+``python jarvis.py``
+
+And voila!! now you have your own jarvis!
+
+## To-Do list:
+- Fix the mic problem. (Jarvis stops hearing when its talking, you can't say stop to him or quit the program)
+- Add portability (Run Jarvis on your PC, carry a portable version of him with you. Or talk to it from anywhere using API)
+- Add Home Automation system (Control anything in your house using Jarvis)
+
+## Contributions:
+Any contributors who are willing to contribute to this project, are greatly appreciated.
+--------------------------------------------------------------------------------------------------------
+- Jarvis combines cutting-edge technologies to deliver a comprehensive and intuitive AI assistant experience. Embrace the future of productivity and let Jarvis streamline your daily routine, enabling you to focus on what truly matters.
