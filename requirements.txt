@@ -50,7 +50,6 @@ docker-pycreds==0.4.0
 docopt==0.6.2
 EasyProcess==1.1
 einops==0.6.1
-en-core-web-sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0-py3-none-any.whl
 encodec==0.1.1
 entrypoint2==1.1
 exceptiongroup==1.1.1
@@ -231,7 +230,6 @@ spacy-loggers==1.0.4
 SpeechRecognition==3.10.0
 srsly==2.4.6
 stack-data==0.6.2
-suno-bark @ git+https://github.com/serp-ai/bark.git@8aac8420cdc94bc1d8d0780c108743cc13633416
 sympy==1.12
 tensorboard==2.12.3
 tensorboard-data-server==0.7.0
